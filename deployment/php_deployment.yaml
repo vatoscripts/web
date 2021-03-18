@@ -5,11 +5,7 @@ metadata:
   labels:
     tier: backend
 spec:
-<<<<<<< HEAD
   replicas: 3
-=======
-  replicas: 8
->>>>>>> f1475428cada91da690bd9b1dea6b813942b5b80
   selector:
     matchLabels:
       app: php
